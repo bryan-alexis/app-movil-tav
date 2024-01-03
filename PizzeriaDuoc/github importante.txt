@@ -1,0 +1,18 @@
+
+echo "# app-movil-tav" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bryan-alexis/app-movil-tav.git
+git push -u origin main
+
+
+git remote add origin https://github.com/bryan-alexis/app-movil-tav.git
+git branch -M main
+git push -u origin main
+
+-- CONFIG --
+
+git config --global user.name "bryan-alexis"
+git config --global user.email "br.trecanao@duocuc.cl"
