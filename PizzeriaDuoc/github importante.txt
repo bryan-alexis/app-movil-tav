@@ -1,3 +1,6 @@
+-- firebase --
+npm install @angular/fire firebase --save
+
 
 echo "# app-movil-tav" >> README.md
 git init
