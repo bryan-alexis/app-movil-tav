@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>add</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Agregar pizza</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-input [(ngModel)]="pizza.nombre" type="text" label="Nombre" labelPLacement="floating"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="pizza.tipo" type="text" Label="Tipo" labelPLacement="floating"></ion-input>
+      </ion-item>
+      <ion-button color="primary" (click)="addPizza()">Agregar</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -30,7 +30,20 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'add',
+    loadChildren: () => import('./pages/pizzas/add/add.module').then( m => m.AddPageModule)
+  },
+  {
+    path: 'detail',
+    loadChildren: () => import('./pages/pizzas/detail/detail.module').then( m => m.DetailPageModule)
+  },
+  {
+    path: 'update',
+    loadChildren: () => import('./pages/pizzas/update/update.module').then( m => m.UpdatePageModule)
   }
+
 ];
 
 @NgModule({
